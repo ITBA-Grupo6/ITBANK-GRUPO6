@@ -4,7 +4,7 @@
   }
   
   body{
-    background-image: url(/imagenes/Cloudy.svg) !important;
+    background-image: url(/imagenes/background_login.jpg) !important;
     background-size: cover;
     
   }
@@ -250,8 +250,11 @@
     color: black;
     border:double;
     margin: auto;
-    width: 40%;
+    width: 60%;
     border-radius: 30px;
+    margin: 5%;
+    
+
 }
 
   .columna1{
@@ -304,15 +307,33 @@
        
   }
 
+
+
   .columnas{
     display: grid;
-    grid-template-columns: 4000px 4000px ;
+    grid-template-columns: 400px 400px ;
     grid-template-columns:  4fr 4fr ;
     grid-column-gap: none;
-    
+    padding: auto;
+    margin: none;
     justify-content: center;
     
-    
+
+  }
+
+  .filas-disponible{
+    display: grid;
+    grid-template-rows: 2000px 4000px ;
+    grid-template-rows: 40% 40% ;
+    grid-gap: 100px;
+    justify-content: r;
+  }
+
+  .botones{
+    display: grid;
+    grid-template-columns: 50px 50px;
+    grid-template-columns:  2fr 2fr ;
+    grid-column-gap: 20px;
 
   }
 
