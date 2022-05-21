@@ -3,6 +3,11 @@
    
   }
   
+  body{
+    background-image: url(/imagenes/Cloudy.svg) !important;
+    background-size: cover;
+    
+  }
   
   nav {
     display: flex;
