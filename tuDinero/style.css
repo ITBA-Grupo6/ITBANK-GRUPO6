@@ -1,0 +1,325 @@
+* {
+    font-family: sans-serif;
+   
+  }
+  
+  
+  nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #ffffff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border-top: solid 1px #cfcfcf;
+  }
+  .dropdown {
+    display: inline-block;
+    margin: 5px 20px;
+  }
+  
+  .dropdown-menu {
+    width: 250px;
+  }
+  
+  nav button {
+    border-style: none;
+    background-color: #ffffff;
+    margin: 5px 20px;
+  }
+  
+  #botonMovil {
+    background-color: #4f52ff;
+  }
+  
+  #boton {
+    visibility: hidden;
+  }
+  /* ATAJOS */
+  
+  #movimientosRapidos {
+    width: 90%;
+    height: 200px;
+    margin: 10px auto;
+    border-radius: 10px;
+    border: solid 1px #cfcfcf;
+    box-shadow: 1px 1px 10px #cfcfcf;
+    
+  }
+
+  
+  .atajos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .atajos a {
+    text-align: center;
+    background-color: #4f52ff;
+    margin: 1px;
+    font-size: 12px;
+    width: 80px;
+    height: 50px;
+    border-radius: 5px;
+    margin: 10px 10px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .atajos a:hover {
+    background-color: white;
+    color: black;
+    box-shadow: 1px 1px 20px #7066ff4f;
+  }
+
+  
+  
+
+  
+  /* ACTIVIDAD */
+  
+  #actividad {
+    width: 90%;
+    height: auto;
+    margin: 10px auto;
+    border-radius: 10px;
+    border: solid 1px #cfcfcf;
+    box-shadow: 1px 1px 10px #cfcfcf;
+  }
+  
+  #buscador {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 10px;
+  }
+  
+  .d-flex {
+    width: 300px;
+    height: 40px;
+  }
+  
+  #actividad h2 {
+    display: inline-block;
+    text-align: right;
+    /* margin: 10px auto; */
+  }
+  
+  .actividadHecha {
+    margin: 10px 0;
+    text-align: center;
+  }
+  
+  .actividadHecha a {
+    text-decoration: none;
+  }
+  
+  /* VERSION PARA PC */
+  
+  @media screen and (min-width: 950px) {
+    nav button {
+      visibility: hidden;
+    }
+  
+    nav {
+      flex-direction: row-reverse;
+      top: 0;
+      left: 35px;
+      height: 50px;
+      justify-content: left;
+      width: 400px;
+      margin-top: 20px;
+      border: none;
+      visibility: hidden;
+    }
+  
+    header {
+      height: 50px;
+      margin-top: 20px;
+    }
+    header img {
+      float: right;
+      margin-right: 45px;
+      cursor: pointer;
+      width: 200px;
+    }
+  
+    #movimientosRapidos {
+      width: 80%;
+      margin: 40px auto;
+      box-shadow: none;
+      border: none;
+      background-color: rgb(57, 65, 133);
+
+    }
+  
+    .dineroDisponible span {
+      padding: 0 30px;
+    }
+  
+    #Opciones {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    #Opciones a {
+      text-decoration: none;
+      color: #4f52ff;
+      margin: 10px;
+      font-size: 1.2em;
+      font-weight: lighter;
+    }
+  
+    #boton_desplegable {
+      margin: 10px 45px;
+      background-color: #4f52ff;
+    }
+  
+    /* ATAJOS */
+    .atajos a {
+      text-align: center;
+      margin: 1px;
+      font-size: 20px;
+      width: 200px;
+      height: 70px;
+      border-radius: 5px;
+      margin: 10px 10px;
+      padding: 10px 0;
+      text-decoration: none;
+    }
+  
+    .dineroDisponible span {
+      font-size: 24px;
+    }
+  
+    #boton {
+      visibility: visible;
+    }
+  
+  }
+  
+.row img {
+    height: 35px;
+    width: 35px;
+    
+  }
+
+  
+
+.fondo{
+     opacity: 0.3;
+     position: absolute;
+     top: 100px;
+     
+     width: 100%;
+     height: 100%;
+}
+
+
+
+
+
+
+.footer {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+  }
+  .copyright {
+    color: black;
+  }
+  
+ 
+
+  .disponible{
+    border: 5px;
+    /* background-color: rgba(53, 108, 177, 1); */
+    justify-content: center;
+    color: black;
+    border:double;
+    margin: auto;
+    width: 40%;
+    border-radius: 30px;
+}
+
+  .columna1{
+    width:60%;
+    float:left;
+  }
+  .columna {
+    width:20%;
+    float:left;
+    justify-content: center;
+  }
+
+  .movimientos{
+    padding: auto;
+      text-align: center;
+      display: inline;
+      margin: auto;
+      border: double;
+      color: black;
+      border: double;
+      border-radius: 30px;
+
+
+      
+  }
+
+  .movimientos p {
+      color:black;
+      
+      
+  }
+
+  .contenedor{
+      justify-content: center;
+      display: flex;
+  }
+
+  .titulo{
+      display: flex;
+        justify-content: center;
+       /* color: black;
+       border: black; */
+       margin-top: 20px;
+       /* border:double; */
+       width: 100%;
+       height: 100%;
+       padding: 30px;
+       text-overflow: ellipsis;
+
+       
+  }
+
+  .columnas{
+    display: grid;
+    grid-template-columns: 4000px 4000px ;
+    grid-template-columns:  4fr 4fr ;
+    grid-column-gap: none;
+    
+    justify-content: center;
+    
+    
+
+  }
+
+  .contenedor-movimientos{
+    border:double;
+    border-color: black;
+    margin: top;
+    padding: auto;
+    justify-self:center;
+    color: black;
+    text-align: center;
+    display: inline;
+    border-radius: 10px;
+    
+  }
